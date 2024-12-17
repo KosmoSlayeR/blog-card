@@ -1,47 +1,52 @@
+.picture, .content {
+    margin-bottom: 24px;
+}
+
+.category, .publish-date, .title {
+    margin-bottom: 12px;
+}
+
 .card {
     width: fit-content;
     background-color: white;
     border: 1px hsl(0, 0%, 42%) solid;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 24px;
     box-shadow: 5px 5px 0px rgb(0, 0, 0);
 }
 
 .picture {
-    width: 260px;
+    height: 200px;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 .content * {
-    width: 260px;
+    width: 334px;
 }
 
 .category {
-    color: black;
-    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
     width: fit-content;
     font-weight: bold;
     background-color: hsl(47, 88%, 63%);
-    margin-bottom: 10px;
-    padding: 5px;
+    padding: 4px 12px;
+    border-radius: 4px;
 }
 
 .publish-date {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .title {
-    font-size: 21px;
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .description {
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 10px;
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .author {
@@ -50,12 +55,12 @@
 }
 
 .author-pic {
-    width: 30px;
+    width: 32px;
     margin-right: 10px;
 }
 
 .author-name {
     flex: 1;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
