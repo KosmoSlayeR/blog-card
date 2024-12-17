@@ -42,6 +42,12 @@
 .title {
     font-size: 24px;
     font-weight: bold;
+    transition: color 80ms;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
 }
 
 .description {
