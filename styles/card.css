@@ -1,4 +1,4 @@
-@media (min-width: 401px) {
+@media (min-width: 1301px) {
     .card {
         padding: 24px;
         row-gap: 24px;
@@ -32,6 +32,42 @@
     .author-pic {
         width: 32px;
     }
+}
+
+@media (max-width: 1300px) {
+    .card {
+        padding: 18px;
+        row-gap: 18px;
+    }
+
+    .picture {
+        height: 150px;
+    }
+
+    .content {
+        width: 248px;
+        row-gap: 9px;
+    }
+
+    .category {
+        padding: 3px 9px;
+    }
+
+    .category, .publish-date, .author-name {
+        font-size: 10px;
+    }
+    
+    .title {
+        font-size: 18px;
+    }
+    
+    .description {
+        font-size: 12px;
+    }
+
+    .author-pic {
+        width: 26px;
+    } 
 }
 
 .card {
