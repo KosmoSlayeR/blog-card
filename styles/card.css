@@ -3,7 +3,7 @@
     background-color: white;
     border: 1px hsl(0, 0%, 42%) solid;
     border-radius: 20px;
-    padding: 24px;
+    padding: 18px;
     box-shadow: 5px 5px 0px rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -12,35 +12,35 @@
 }
 
 .picture {
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
 }
 
 .content {
     display: flex;
-    width: 334px;
+    width: 248px;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    row-gap: 12px;
+    row-gap: 9px;
 }
 
 .category {
     color: hsl(0, 0%, 7%);
-    font-size: 14px;
+    font-size: 10px;
     width: fit-content;
     font-weight: bold;
     background-color: hsl(47, 88%, 63%);
-    padding: 4px 12px;
+    padding: 3px 9px;
     border-radius: 4px;
 }
 
 .publish-date {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     transition: color 80ms;
 }
@@ -52,7 +52,7 @@
 
 .description {
     color: hsl(0, 0%, 42%);
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -62,12 +62,12 @@
 }
 
 .author-pic {
-    width: 32px;
+    width: 26px;
     margin-right: 10px;
 }
 
 .author-name {
     flex: 1;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
 }
